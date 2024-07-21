@@ -1,10 +1,14 @@
-﻿using System.Text.Json.Serialization;
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+using System.Text.Json.Serialization;
 
-namespace Shopping.Client.Models
+namespace Shopping.API.Models
 {
     public class Product
     {
         [JsonPropertyName("id")]
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
         public string id { get; set; }
 
         [JsonPropertyName("name")]
