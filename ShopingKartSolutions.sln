@@ -11,9 +11,10 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K8s", "K8s", "{131E131E-F903-4317-8603-D87D6BD2EF6A}"
 	ProjectSection(SolutionItems) = preProject
-		mongo-deployment.yaml = mongo-deployment.yaml
-		mongo-secret.yaml = mongo-secret.yaml
-		mongo-service.yaml = mongo-service.yaml
+		..\..\..\..\..\Repo\shopping\ShopingKartSolutions\K8s\mongo-configmap.yaml = ..\..\..\..\..\Repo\shopping\ShopingKartSolutions\K8s\mongo-configmap.yaml
+		..\..\..\..\..\Repo\shopping\ShopingKartSolutions\K8s\mongo-deployment.yaml = ..\..\..\..\..\Repo\shopping\ShopingKartSolutions\K8s\mongo-deployment.yaml
+		..\..\..\..\..\Repo\shopping\ShopingKartSolutions\K8s\mongo-secret.yaml = ..\..\..\..\..\Repo\shopping\ShopingKartSolutions\K8s\mongo-secret.yaml
+		..\..\..\..\..\Repo\shopping\ShopingKartSolutions\K8s\mongo-service.yaml = ..\..\..\..\..\Repo\shopping\ShopingKartSolutions\K8s\mongo-service.yaml
 		TextFile.txt = TextFile.txt
 	EndProjectSection
 EndProject
