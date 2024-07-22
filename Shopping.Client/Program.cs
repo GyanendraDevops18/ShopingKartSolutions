@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddHttpClient("ShoppingAPIClient", c =>
-    c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:ShoppingAPIUrl"]));
+    c.BaseAddress = new Uri(builder.Configuration["ShoppingAPIUrl"]));
 
 var app = builder.Build();
 
